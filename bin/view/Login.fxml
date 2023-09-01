@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="700.0" pickOnBounds="true">
+         <image>
+            <Image url="@img/pizza-background.jpg" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="-0.95" contrast="0.3" />
+         </effect>
+      </ImageView>
+      <Text fill="WHITE" layoutX="288.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bem-vindo" textAlignment="CENTER" wrappingWidth="420.6484375">
+         <font>
+            <Font name="Pristina" size="63.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="329.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Por favor efetue o login para continuar" textAlignment="CENTER" wrappingWidth="337.3307342529297">
+         <font>
+            <Font name="Pristina" size="21.0" />
+         </font></Text>
+      <TextField fx:id="txtUser" layoutX="358.0" layoutY="199.0" prefHeight="40.0" prefWidth="280.0" promptText="Usuário" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF; -fx-font-family: 'Courier New', Courier, monospace; -fx-font-size: 14px; -fx-text-fill: #FFFFFF;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="txtPassword" layoutX="358.0" layoutY="274.0" prefHeight="40.0" prefWidth="280.0" promptText="Senha" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF; -fx-font-family: 'Courier New', Courier, monospace; -fx-font-size: 14; -fx-text-fill: #FFFFFF;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="329.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/icons8-user-90.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="329.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/icons8-password-96.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnLogin" layoutX="412.0" layoutY="375.0" mnemonicParsing="false" onAction="#onClickBtnLogin" prefHeight="54.0" prefWidth="162.0" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF; -fx-font-size: 28; -fx-border-radius: 5;" text="ENTRAR" textFill="WHITE" />
+   </children>
+</AnchorPane>

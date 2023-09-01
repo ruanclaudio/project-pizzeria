@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1080.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CardapioController">
+   <children>
+      <ImageView fitHeight="900.0" fitWidth="1080.0" pickOnBounds="true">
+         <image>
+            <Image url="@img/cardapio-background.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="-0.95" />
+         </effect>
+      </ImageView>
+      <AnchorPane layoutX="11.0" layoutY="5.0" prefHeight="889.0" prefWidth="1060.0" style="-fx-border-color: white; -fx-border-width: 3;">
+         <children>
+            <Text fill="WHITE" layoutX="120.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pizza de Margherita" textAlignment="CENTER">
+               <font>
+                  <Font name="System Italic" size="24.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="60.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sabor: Muçarela, manjericão, tomate e azeitonas pretas" wrappingWidth="262.8251953125">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="120.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pizza de Quatro Queijos">
+               <font>
+                  <Font name="System Italic" size="24.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="60.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sabor: Muçarela, Gorgonzola, Provolone e Parmesão" wrappingWidth="340.92578125">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="120.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pizza de Calabresa" textAlignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="60.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sabor: Muçarela, Calabresa, Tomate e Cebola" wrappingWidth="303.92578125">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="650.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pizza de Camarão">
+               <font>
+                  <Font name="System Italic" size="24.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="570.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sabor: Muçarela, Camarão, Azeitonas Pretas" wrappingWidth="291.83203125">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="600.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pizza de Frango com Catupiry">
+               <font>
+                  <Font name="System Italic" size="24.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="570.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sabor: Muçarela, Frango Desfiado, Catupiry, Cebola" wrappingWidth="318.83203125">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Text>
+            <Group layoutX="50.0" layoutY="519.0">
+               <children>
+                  <Text fill="WHITE" layoutY="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Pequeno: R$ 30,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="1.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Média: R$ 40,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Grande: R$ 50,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="190.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Familia: R$ 65,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Group>
+            <Group layoutX="50.0" layoutY="363.0">
+               <children>
+                  <Text fill="WHITE" layoutX="-6.0" layoutY="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Pequeno: R$ 27,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="-6.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Média: R$ 37,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Grande: R$ 45,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="190.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Familia: R$ 57,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Group>
+            <Group layoutX="50.0" layoutY="193.0">
+               <children>
+                  <Text fill="WHITE" layoutX="-6.0" layoutY="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Pequeno: R$ 25,00">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="-6.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Média: R$ 35,00">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Grande: R$ 45,00">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="190.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Familia: R$ 47,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Group>
+            <Group layoutX="600.0" layoutY="191.0">
+               <children>
+                  <Text fill="WHITE" layoutX="-32.0" layoutY="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Pequeno: R$ 40,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="-32.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Média: R$ 55,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Grande: R$ 65,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="155.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Familia: R$ 80,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Group>
+            <Group layoutX="600.0" layoutY="364.0">
+               <children>
+                  <Text fill="WHITE" layoutX="-32.0" layoutY="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Pequeno: R$ 27,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="-32.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Média: R$ 37,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Grande: R$ 45,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="155.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Familia: R$ 57,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Group>
+            <Button fx:id="btnConfirmar" layoutX="656.0" layoutY="770.0" mnemonicParsing="false" onAction="#onClickBtnConfirmarPedido" prefHeight="57.0" prefWidth="230.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 2; -fx-border-radius: 5;" text="CONFIRMAR PEDIDO" textFill="WHITE">
+               <font>
+                  <Font name="Rockwell" size="20.0" />
+               </font>
+            </Button>
+            <AnchorPane layoutX="338.0" prefHeight="57.0" prefWidth="341.0" style="-fx-border-color: white; -fx-border-width: 2; -fx-border-radius: 2;">
+               <children>
+                  <Text fill="WHITE" layoutX="23.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pizzas" textAlignment="CENTER" wrappingWidth="97.3828125">
+                     <font>
+                        <Font name="Pristina" size="48.0" />
+                     </font>
+                  </Text>
+                  <ChoiceBox fx:id="choiceBoxPizza" layoutX="142.0" layoutY="16.0" prefHeight="25.0" prefWidth="189.0" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF;" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="604.0" layoutY="436.0" prefHeight="63.0" prefWidth="391.0" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-border-radius: 2;">
+               <children>
+                  <Text fill="WHITE" layoutX="6.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sobremesas">
+                     <font>
+                        <Font name="Pristina" size="48.0" />
+                     </font>
+                  </Text>
+                  <ChoiceBox fx:id="choiceBoxSobremesa" layoutX="195.0" layoutY="22.0" prefHeight="25.0" prefWidth="189.0" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF;" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="98.0" layoutY="593.0" prefHeight="76.0" prefWidth="341.0" style="-fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-border-radius: 2;">
+               <children>
+                  <Text fill="WHITE" layoutX="3.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bebidas" wrappingWidth="129.349609375">
+                     <font>
+                        <Font name="Pristina" size="48.0" />
+                     </font>
+                  </Text>
+                  <ChoiceBox fx:id="choiceBoxBebida" layoutX="146.0" layoutY="24.0" prefHeight="25.0" prefWidth="189.0" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF;" />
+               </children>
+            </AnchorPane>
+            <Button fx:id="btnAdicionar" layoutX="771.0" layoutY="685.0" mnemonicParsing="false" onAction="#onClickBtnAdicionarAoPedido" prefHeight="57.0" prefWidth="259.0" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-border-radius: 5;" text="ADICIONAR AO PEDIDO" textFill="WHITE">
+               <font>
+                  <Font name="Rockwell" size="20.0" />
+               </font>
+            </Button>
+            <Group layoutX="6.0" layoutY="717.0">
+               <children>
+                  <Text fill="WHITE" layoutX="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Água com gás: R$ 6,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Água sem gás: R$ 5,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Coca-cola litro: R$ 8,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="230.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Coca-cola litro: R$ 6,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="1.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Guarana litro R$ 7,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="230.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Guarana lata: R$ 5,50">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="3.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Pepsi litro: R$ 7,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="230.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Cerveja litro: R$ 7,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Group>
+            <Group layoutX="450.0" layoutY="550.0">
+               <children>
+                  <Text fill="WHITE" layoutX="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Cheese Cake: R$ 23,00">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutY="1.41796875" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Sorvete de Baunilha: R$ 7,50">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutY="30.41796875" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Sorvete de Chocolate R$ 8,90">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutY="60.41796875" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Sllider de Brigadeiro R$ 10,90">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="300.0" layoutY="30.41796875" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Slider de Doce de Leite: R$ 11,90">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="300.0" layoutY="60.41796875" strokeType="OUTSIDE" strokeWidth="0.0" text="◾ Slider de Cocada: R$ 10,90">
+                     <font>
+                        <Font name="System Italic" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Group>
+            <TextField fx:id="txtFieldNomeCliente" layoutX="514.0" layoutY="685.0" prefHeight="58.0" prefWidth="242.0" promptText="Insira o nome do cliente" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF; -fx-border-width: 2; -fx-text-fill: #FFFFFF;">
+               <font>
+                  <Font name="Rockwell" size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="btnVoltar" layoutX="15.0" layoutY="10.0" mnemonicParsing="false" onAction="#onClickBtnVoltar" prefHeight="45.0" prefWidth="103.0" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF; -fx-border-width: 3;" text="VOLTAR" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
