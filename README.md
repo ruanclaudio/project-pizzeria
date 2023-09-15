@@ -29,8 +29,15 @@ Enquanto isso, você pode explorar a documentação e experimentar o projeto por
 
 Para executar o projeto em sua máquina local, siga estas etapas:
 
-1. Clone este repositório:
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/ruanclaudio/project-pizzeria.git
+
+
 2. Atualmente é necessário baixar e instalar o JavaFX e alguma IDE para o Java.
+
+**Nota:** Este projeto é fictício e foi criado apenas para fins educativos
 
 # English Version:
 
@@ -66,4 +73,8 @@ In the meantime, you can explore the documentation and try out the project for y
 To run the project on your local machine, follow these steps:
 
 1. Clone this repository:
+      ```bash
+   git clone https://github.com/ruanclaudio/project-pizzeria.git
 2. Currently you need to download and install JavaFX and some IDE for Java.
+
+**Note: This project is fictitious and was created for educational purposes only.
